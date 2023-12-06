@@ -4,19 +4,21 @@ Authors: Veronika Dudas, Adam Farkas, Zoltan Foldes, Adorjan Meszaros
 
 Specifikacio:
 	- a weboldal minden elerheto tipusu aloldalarol kapjunk screenshotot
-	- megadott felbontasokban, allo es landscape modban is vizsgalja az oldalt
-	- screenshotot ment el minden oldalrol, raadasul folyamatosan legorgetve
+	- megadott felbontasokban, allo es landscape modban is vizsgalja az oldalt x
+	- screenshotot ment el minden oldalrol, raadasul folyamatosan legorgetve x
 
 	Extrak:
 	- potencialisan tobb bongeszo tipusban
 	- screencapture felvetele oldalankent
 	- regisztráció popupban való görgetés
+	- printeljen miközben a háttérben készülnek a screenshotok
+	- refaktorálás és kommentelés későbbi felhasználáshoz
 
 Tervezes:
-	- lista az osszes aloldalrol
-	- lista a felbontasokrol
-	- fajlnevek/mappaelnevezesek
-	- github repo
+	- lista az osszes aloldalrol - gettourl bővítése
+	- lista a felbontasokrol x
+	- fajlnevek/mappaelnevezesek x
+	- github repo x
 
 Pszeudokod:
 	for url in url_list: x

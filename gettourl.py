@@ -13,7 +13,9 @@ def visit_mainpage():
     from selenium import webdriver
     from selenium.webdriver import ChromeOptions
     options = ChromeOptions()
+    options.add_argument("--headless")
     options.add_experimental_option("detach", True)
+    options.add_argument("--window-size=2560,1440")
     driver = webdriver.Chrome(options=options)
     driver.get('http://hotel-v3.progmasters.hu/')
     return driver, "mainpage"
@@ -24,7 +26,9 @@ def register_page():
     from selenium.webdriver import ChromeOptions
     from selenium.webdriver.common.by import By
     options = ChromeOptions()
+    options.add_argument("--headless")
     options.add_experimental_option("detach", True)
+    options.add_argument("--window-size=2560,1440")
     driver = webdriver.Chrome(options=options)
     driver.get('http://hotel-v3.progmasters.hu/')
     driver.find_element(By.ID, 'dropbar').click()

@@ -22,17 +22,13 @@ Pszeudokod:
 		create_webdriver()
 		get_to_url()
 		for res in res_list:
-			for actual_res in [res, res[::-1]]:
-				while not at the bottom of the page:
-					create_path()
-					take_screenshot()
-					screenshot.save(path)
-					scroll_down(actual_res[1])
-				create_path()
-				take_screenshot()
-				screenshot.save(path)
-				scroll_to_top()
-		close_webdriver()
+			for actual_res in [res, res[::-1]]: x
+				while not at the bottom of the page: x
+					create_path()  --
+					take_screenshot() x
+					screenshot.save(path) x
+					scroll_down(actual_res[1]) x
+		close_webdriver() x
 
 Adatstrukturak:
 	res : {

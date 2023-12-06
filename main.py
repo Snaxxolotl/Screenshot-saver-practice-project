@@ -32,7 +32,7 @@ for function_name in dir(gettourl):
                 i = 1
 
                 while current_height * i < height_of_page + current_height:
-                    driver.save_screenshot(f"./{dirname}/{device_name}/filename_{landscape * "landscape_"}{i}.png")
+                    driver.save_screenshot(f"./{dirname}/{device_name}/filename_{landscape * 'landscape_'}{i}.png")
                     driver.execute_script(f"window.scrollTo(0, {current_height * i})")
                     i += 1
 

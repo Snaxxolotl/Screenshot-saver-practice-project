@@ -10,6 +10,7 @@ Specifikacio:
 	Extrak:
 	- potencialisan tobb bongeszo tipusban
 	- screencapture felvetele oldalankent
+	- regisztráció popupban való görgetés
 
 Tervezes:
 	- lista az osszes aloldalrol
@@ -18,21 +19,17 @@ Tervezes:
 	- github repo
 
 Pszeudokod:
-	for url in url_list:
-		create_webdriver()
-		get_to_url()
-		for res in res_list:
-			for actual_res in [res, res[::-1]]:
-				while not at the bottom of the page:
-					create_path()
-					take_screenshot()
-					screenshot.save(path)
-					scroll_down(actual_res[1])
-				create_path()
-				take_screenshot()
-				screenshot.save(path)
-				scroll_to_top()
-		close_webdriver()
+	for url in url_list: x
+		create_webdriver() x
+		get_to_url() x
+		for res in res_list: x
+			for actual_res in [res, res[::-1]]: x
+				while not at the bottom of the page: x
+					create_path()  x
+					take_screenshot() x
+					screenshot.save(path) x
+					scroll_down(actual_res[1]) x
+		close_webdriver() x
 
 Adatstrukturak:
 	res : {

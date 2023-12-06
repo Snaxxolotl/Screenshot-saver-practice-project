@@ -1,0 +1,166 @@
+[
+    {
+        "device": "iPhone_13_Pro",
+        "width": 390,
+        "height": 844,
+        "other_devices": []
+    },
+    {
+        "device": "iPhone_XR",
+        "width": 414,
+        "height": 896,
+        "other_devices": [
+            "iPhone_XS_Max"
+        ]
+    },
+    {
+        "device": "iPhone_XS",
+        "width": 375,
+        "height": 812,
+        "other_devices": [
+            "iPhone_X"
+        ]
+    },
+    {
+        "device": "iPhone_8_Plus",
+        "width": 414,
+        "height": 736,
+        "other_devices": [
+            "iPhone_7_Plus",
+            "iPhone_6_Plus/6S_Plus"
+        ]
+    },
+    {
+        "device": "iPhone_8",
+        "width": 375,
+        "height": 667,
+        "other_devices": [
+            "iPhone_7",
+            "iPhone_6/6S"
+        ]
+    },
+    {
+        "device": "iPhone_5",
+        "width": 320,
+        "height": 568,
+        "other_devices": [
+            "iPod_Touch"
+        ]
+    },
+    {
+        "device": "iPad_Pro",
+        "width": 1024,
+        "height": 1366,
+        "other_devices": []
+    },
+    {
+        "device": "iPad_Third_&_Fourth_Generation",
+        "width": 768,
+        "height": 1024,
+        "other_devices": [
+            "iPad_Air_1_&_2",
+            "iPad_Mini_2_&_3",
+            "iPad_Mini",
+            "Nexus_9"
+        ]
+    },
+    {
+        "device": "Nexus_6P",
+        "width": 412,
+        "height": 732,
+        "other_devices": [
+            "Nexus_5X",
+            "Google_Pixel_2_XL",
+            "Google_Pixel_XL",
+            "Google_Pixel"
+        ]
+    },
+    {
+        "device": "Google_Pixel_7_Pro",
+        "width": 412,
+        "height": 771,
+        "other_devices": []
+    },
+    {
+        "device": "Google_Pixel_4_XL",
+        "width": 412,
+        "height": 869,
+        "other_devices": [
+            "Google_Pixel_4",
+            "Samsung_Galaxy_Note_10+",
+            "Samsung_Galaxy_Note_10"
+        ]
+    },
+    {
+        "device": "Google_Pixel_3a_XL",
+        "width": 412,
+        "height": 824,
+        "other_devices": [
+            "Google_Pixel_3"
+        ]
+    },
+    {
+        "device": "Google_Pixel_3a",
+        "width": 412,
+        "height": 846,
+        "other_devices": []
+    },
+    {
+        "device": "Google_Pixel_3_XL",
+        "width": 412,
+        "height": 847,
+        "other_devices": []
+    },
+    {
+        "device": "Samsung_Galaxy_Note_9",
+        "width": 360,
+        "height": 740,
+        "other_devices": [
+            "Samsung_Galaxy_S9+",
+            "Samsung_Galaxy_S9",
+            "Samsung_Galaxy_S8+",
+            "Samsung_Galaxy_S8"
+        ]
+    },
+    {
+        "device": "Samsung_Galaxy_Note_5",
+        "width": 480,
+        "height": 853,
+        "other_devices": [
+            "LG_G5",
+            "One_Plus_3"
+        ]
+    },
+    {
+        "device": "Samsung_Galaxy_S7_Edge",
+        "width": 360,
+        "height": 640,
+        "other_devices": [
+            "Samsung_Galaxy_S7"
+        ]
+    },
+    {
+        "device": "Nexus_7_(2013)",
+        "width": 600,
+        "height": 960,
+        "other_devices": []
+    },
+    {
+        "device": "Pixel_C",
+        "width": 900,
+        "height": 1280,
+        "other_devices": []
+    },
+    {
+        "device": "Samsung_Galaxy_Tab_10",
+        "width": 800,
+        "height": 1280,
+        "other_devices": []
+    },
+    {
+        "device": "Chromebook_Pixel",
+        "width": 1280,
+        "height": 850,
+        "other_devices": []
+    }
+]

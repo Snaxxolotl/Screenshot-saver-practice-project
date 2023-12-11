@@ -11,6 +11,9 @@ Specifikacio:
 	- potencialisan tobb bongeszo tipusban
 	- screencapture felvetele oldalankent
 	- regisztráció popupban való görgetés
+	- képek post-processingje? (sok kis képből egy nagyot összerakni)
+	- driver post-processingje? (pl. ha felvettünk bookingot, hogy látszódjon, törölje a bookingokat, etc.)
+	- a specifikációból vagy egy txt-t vagy egy md-t csinálni, semmi értelme, h .py legyen:D my b
 
 Tervezes:
 	- lista az osszes aloldalrol

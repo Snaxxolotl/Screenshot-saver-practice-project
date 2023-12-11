@@ -14,6 +14,7 @@ Specifikacio:
 	- képek post-processingje? (sok kis képből egy nagyot összerakni)
 	- driver post-processingje? (pl. ha felvettünk bookingot, hogy látszódjon, törölje a bookingokat, etc.)
 	- a specifikációból vagy egy txt-t vagy egy md-t csinálni, semmi értelme, h .py legyen:D my b
+	- pszeudokód update-elése, adatstruktúrák update-elése
 
 Tervezes:
 	- lista az osszes aloldalrol
@@ -39,6 +40,7 @@ Adatstrukturak:
 		'width' : int,
 		'height' : int,
 		'device' : string
+		'other_devices' : list[string] # list of other devices that use the same resolution
 	}
 	res_list : [tuple]
 	url : {

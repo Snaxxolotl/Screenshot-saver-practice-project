@@ -15,6 +15,7 @@ Specifikacio:
 	- driver post-processingje? (pl. ha felvettünk bookingot, hogy látszódjon, törölje a bookingokat, etc.)
 	- a specifikációból vagy egy txt-t vagy egy md-t csinálni, semmi értelme, h .py legyen:D my b
 	- pszeudokód update-elése, adatstruktúrák update-elése
+	- a gettourl-t megcsinalni, hogy csak pl. visit_ kezdetu funkcionevek keruljenek futtatasra a main.py-ban
 
 Tervezes:
 	- lista az osszes aloldalrol
